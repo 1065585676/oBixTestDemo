@@ -8,6 +8,9 @@
 
 import UIKit
 
+import Alamofire
+import SwiftyXMLParser
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
