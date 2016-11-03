@@ -10,6 +10,9 @@
 		2C9B39DBEA40C9ED7F5623F3 /* Pods_ObixTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00FA761A678E76A0E938F88 /* Pods_ObixTestDemoTests.framework */; };
 		86B933AA60DDCC2B560B7E42 /* Pods_ObixTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD133FA5702252C967446B2 /* Pods_ObixTestDemo.framework */; };
 		986CCF93B95077BF706850F3 /* Pods_ObixTestDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A7B7E4AB1C793B1D5C5B30 /* Pods_ObixTestDemoUITests.framework */; };
+		FC4F88C51DC9F9C000EA2DC2 /* WebModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F88C41DC9F9C000EA2DC2 /* WebModeViewController.swift */; };
+		FC4F88C71DC9FD9900EA2DC2 /* PublicStaticVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F88C61DC9FD9900EA2DC2 /* PublicStaticVar.swift */; };
+		FC89AC0B1DC8DBFF0045B2F6 /* WatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89AC0A1DC8DBFF0045B2F6 /* WatchesViewController.swift */; };
 		FCBFA2621DC0D6BE00E700C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFA2611DC0D6BE00E700C5 /* AppDelegate.swift */; };
 		FCBFA2641DC0D6BE00E700C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFA2631DC0D6BE00E700C5 /* ViewController.swift */; };
 		FCBFA2671DC0D6BE00E700C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBFA2651DC0D6BE00E700C5 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 		BDD133FA5702252C967446B2 /* Pods_ObixTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObixTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00FA761A678E76A0E938F88 /* Pods_ObixTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObixTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DD9ADC54BD2D1FDCBD0335 /* Pods-ObixTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObixTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObixTestDemo/Pods-ObixTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4F88C41DC9F9C000EA2DC2 /* WebModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebModeViewController.swift; sourceTree = "<group>"; };
+		FC4F88C61DC9FD9900EA2DC2 /* PublicStaticVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicStaticVar.swift; sourceTree = "<group>"; };
+		FC89AC0A1DC8DBFF0045B2F6 /* WatchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchesViewController.swift; sourceTree = "<group>"; };
 		FCBFA25E1DC0D6BE00E700C5 /* ObixTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObixTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBFA2611DC0D6BE00E700C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCBFA2631DC0D6BE00E700C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,10 +148,13 @@
 				FCBFA2611DC0D6BE00E700C5 /* AppDelegate.swift */,
 				FCBFA2631DC0D6BE00E700C5 /* ViewController.swift */,
 				FCBFA2651DC0D6BE00E700C5 /* Main.storyboard */,
+				FC89AC0A1DC8DBFF0045B2F6 /* WatchesViewController.swift */,
+				FC4F88C41DC9F9C000EA2DC2 /* WebModeViewController.swift */,
 				FCBFA26B1DC0D6BE00E700C5 /* Assets.xcassets */,
 				FCBFA26D1DC0D6BE00E700C5 /* LaunchScreen.storyboard */,
 				FCBFA2701DC0D6BE00E700C5 /* Info.plist */,
 				FCBFA2681DC0D6BE00E700C5 /* ObixTestDemo.xcdatamodeld */,
+				FC4F88C61DC9FD9900EA2DC2 /* PublicStaticVar.swift */,
 			);
 			path = ObixTestDemo;
 			sourceTree = "<group>";
@@ -452,6 +461,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4F88C71DC9FD9900EA2DC2 /* PublicStaticVar.swift in Sources */,
+				FC89AC0B1DC8DBFF0045B2F6 /* WatchesViewController.swift in Sources */,
+				FC4F88C51DC9F9C000EA2DC2 /* WebModeViewController.swift in Sources */,
 				FCBFA2641DC0D6BE00E700C5 /* ViewController.swift in Sources */,
 				FCBFA26A1DC0D6BE00E700C5 /* ObixTestDemo.xcdatamodeld in Sources */,
 				FCBFA2621DC0D6BE00E700C5 /* AppDelegate.swift in Sources */,
@@ -527,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -576,6 +589,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -604,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0DD9ADC54BD2D1FDCBD0335 /* Pods-ObixTestDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 624877M2V4;
@@ -619,6 +634,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36506CCCAE1BDDEE4F3503DB /* Pods-ObixTestDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 624877M2V4;
